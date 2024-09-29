@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="Konfirmasi Pemesanan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Tarif Tiket"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Rp200.000"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_batal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF527B"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Batal"
+            app:cornerRadius="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_beli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#525BFF"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Beli"
+            android:elevation="12dp"
+            android:translationZ="12dp"
+            app:cornerRadius="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
