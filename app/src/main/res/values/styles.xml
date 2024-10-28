@@ -33,7 +33,7 @@
 
     <style name="CustomDatePickerDialog" parent="Theme.AppCompat.Light.Dialog">
         <item name="colorAccent">#525BFF</item>
-        <item name="android:headerBackground">#525BFF</item>
+        <item name="materialButtonStyle">@color/primary</item>
         <item name="android:datePickerMode">calendar</item>
     </style>
 
